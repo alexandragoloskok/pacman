@@ -7,25 +7,15 @@
 
 <script>
 
-
-// import Pacman from './pacman.js'
+import Pacman from './myPacman.js'
 
 export default {
-    // mounted(){
-    //     Pacman.startNow()
-    // }
+    mounted(){
+        Pacman.startNow()
+    }
 }
-
-
-
-
 
 </script>
 
 <style>
-  #pacman {
-    height:450px;
-    width:342px;
-    margin:20px auto;
-  }
 </style>
